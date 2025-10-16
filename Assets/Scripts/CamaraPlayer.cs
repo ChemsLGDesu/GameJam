@@ -1,15 +1,16 @@
 using UnityEngine;
 
-public class CamaraPlayer : MonoBehaviour
+public class MainCamera : MonoBehaviour
 {
-    public GameObject Player;
-    public float Speed = 5f;
-
-    void Update()
+    public Transform player;
+    public float smoothSpeed = 0.125f;
+    public Vector3 offset = new Vector3(0, 0, -10);
+    void LateUpdate()
     {
-        float x = Player.transform.position.x;
-        float y = Player.transform.position.y;
-        Vector3 targetPosition = new Vector3(x, y, transform.position.z);
-        transform.position = Vector3.Lerp(transform.position, targetPosition, Speed * Time.deltaTime);
+        if (player != null)
+        {
+            Vector3 targetPosition = player.position + offset;
+            transform.position = Vector3.Lerp(transform.position, targetPosition, smoothSpeed);
+        }
     }
 }
