@@ -15,7 +15,7 @@ public class Player : MonoBehaviour
     private void OnEnable()
     {
         input.Enable();
-
+        
         input.Player.Move.started += OnMove;
         input.Player.Move.performed += OnMove;
         input.Player.Move.canceled += OnMove;
