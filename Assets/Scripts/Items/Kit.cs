@@ -1,12 +1,14 @@
+using System.Runtime.CompilerServices;
 using UnityEngine;
+using UnityEngine.InputSystem;
 
-public class Kit : MonoBehaviour
+public class Kit : ItemTypes
 {
-    [SerializeField] private float givehealth = 2;
     [SerializeField] private Transform target;
+    public int givehealth = 2;
     void Start()
     {
-        //target = GameObject.FindGameObjectsWithTag("Player").GetComponent<Transform>
+        target = GameObject.FindGameObjectWithTag("Player").GetComponent<Transform>();
     }
 
     
@@ -19,8 +21,8 @@ public class Kit : MonoBehaviour
         if(collision.tag == "Player")
         {
             Debug.Log("El player a incrementado su vida en"+givehealth);
-            //collision.GetComponent<Player>
-
+            collision.GetComponent<Player>().Health += givehealth;
+            Destroy(gameObject);
         }
     }
 }

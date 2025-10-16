@@ -2,14 +2,20 @@ using System.Runtime.CompilerServices;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
-public class Player : MonoBehaviour
+public class Player : Entity
 {
+    [SerializeField] private Transform target;
+    public int Health;
     public InputSystem_Actions input;
     public float speed;
     public Vector2 moveInput;
     private void Awake()
     {
         input = new();
+    }
+    public void Start()
+    {
+        target = GameObject.FindGameObjectWithTag("Kit").GetComponent<Transform>();
     }
 
     private void OnEnable()
