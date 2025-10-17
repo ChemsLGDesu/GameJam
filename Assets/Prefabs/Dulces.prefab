@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 3975233130913448825}
   - component: {fileID: 7280616806447878680}
   - component: {fileID: 5700862330028973861}
+  - component: {fileID: 7112872059328716971}
   m_Layer: 0
   m_Name: Dulces
   m_TagString: Untagged
@@ -26,8 +27,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7818339440923889262}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 4.58, y: -2.42, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 38.253273, y: -10.495976, z: -0.06705625}
   m_LocalScale: {x: 0.4693, y: 0.4389, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -134,3 +135,18 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &7112872059328716971
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7818339440923889262}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e4f38d90e7d1b2c429ddbb388f31b8e6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ItemName: Calabaza
+  target: {fileID: 0}
+  gm: {fileID: 0}
