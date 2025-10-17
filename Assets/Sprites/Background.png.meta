@@ -1,11 +1,10 @@
 fileFormatVersion: 2
-guid: a1f7a391a13a1e34dae2598e0e12f811
+guid: ca6be5a9425723048946caee3c529cdd
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 3903803586669790901
-    second: SNES - Zombies Ate My Neighbors - Backgrounds - Level 19_ Nightmare on
-      Terror Street_0
+      213: -1955448553306655712
+    second: Background_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -101,8 +100,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: SNES - Zombies Ate My Neighbors - Backgrounds - Level 19_ Nightmare on
-        Terror Street_0
+      name: Background_0
       rect:
         serializedVersion: 2
         x: 0
@@ -117,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 5b64958cda81d2630800000000000000
-      internalID: 3903803586669790901
+      spriteID: 024fa93b6e9dcd4e0800000000000000
+      internalID: -1955448553306655712
       vertices: []
       indices: 
       edges: []
@@ -137,7 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      SNES - Zombies Ate My Neighbors - Backgrounds - Level 19_ Nightmare on Terror Street_0: 3903803586669790901
+      Background_0: -1955448553306655712
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
