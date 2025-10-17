@@ -2,8 +2,9 @@ using UnityEngine;
 
 public class GameManager : MonoBehaviour
 {
-    [SerializeField] private int counter = 0;
     [SerializeField] private Player player;
+    public int counter = 0;
+    public GameObject RecollectableObject;
 
     void Start()
     {
