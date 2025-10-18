@@ -4,7 +4,6 @@ using UnityEngine.InputSystem;
 
 public class Player : Entity
 {
-    [SerializeField] private Transform target;
     public int Health = 50;
     public InputSystem_Actions input;
     public float speed;
@@ -15,7 +14,7 @@ public class Player : Entity
     }
     public void Start()
     {
-        target = GameObject.FindGameObjectWithTag("Kit").GetComponent<Transform>();
+        
     }
 
     private void OnEnable()

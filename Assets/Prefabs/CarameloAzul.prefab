@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &7818339440923889262
+--- !u!1 &6049963622630080381
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8,39 +8,39 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 3975233130913448825}
-  - component: {fileID: 7280616806447878680}
-  - component: {fileID: 5700862330028973861}
-  - component: {fileID: 7112872059328716971}
+  - component: {fileID: 6181681970841790041}
+  - component: {fileID: 6895205515233521982}
+  - component: {fileID: 8663046528694279708}
+  - component: {fileID: 1390986989018085082}
   m_Layer: 0
-  m_Name: Dulces
+  m_Name: CarameloAzul
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &3975233130913448825
+--- !u!4 &6181681970841790041
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7818339440923889262}
+  m_GameObject: {fileID: 6049963622630080381}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 38.253273, y: -10.495976, z: -0.06705625}
-  m_LocalScale: {x: 0.3462026, y: 0.33057946, z: 1}
+  m_LocalPosition: {x: -5.3389907, y: 2.523659, z: 0}
+  m_LocalScale: {x: 0.3384168, y: 0.35764834, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!212 &7280616806447878680
+--- !u!212 &6895205515233521982
 SpriteRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7818339440923889262}
+  m_GameObject: {fileID: 6049963622630080381}
   m_Enabled: 1
   m_CastShadows: 0
   m_ReceiveShadows: 0
@@ -77,9 +77,9 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 1
-  m_Sprite: {fileID: 6330059639777956751, guid: f8637468f1f0d474cb8215a8dd11c78a, type: 3}
-  m_Color: {r: 0.8584906, g: 0.3037113, b: 0.3037113, a: 1}
+  m_SortingOrder: 2
+  m_Sprite: {fileID: -8019987226401722238, guid: f8637468f1f0d474cb8215a8dd11c78a, type: 3}
+  m_Color: {r: 0.31372374, g: 0.8112984, b: 0.8867924, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -89,13 +89,28 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!61 &5700862330028973861
+--- !u!114 &8663046528694279708
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6049963622630080381}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e4f38d90e7d1b2c429ddbb388f31b8e6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ItemName: CarameloAzul
+  target: {fileID: 0}
+  gm: {fileID: 0}
+--- !u!61 &1390986989018085082
 BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7818339440923889262}
+  m_GameObject: {fileID: 6049963622630080381}
   m_Enabled: 1
   serializedVersion: 3
   m_Density: 1
@@ -127,26 +142,11 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1, y: 0.93}
+    oldSize: {x: 0.77, y: 1.16}
     newSize: {x: 1, y: 1}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 0.77, y: 1.16}
   m_EdgeRadius: 0
---- !u!114 &7112872059328716971
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7818339440923889262}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e4f38d90e7d1b2c429ddbb388f31b8e6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  ItemName: CarameloRojo
-  target: {fileID: 0}
-  gm: {fileID: 0}

@@ -1,0 +1,1339 @@
+fileFormatVersion: 2
+guid: f8637468f1f0d474cb8215a8dd11c78a
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2885929168102847751
+    second: Dulces_0
+  - first:
+      213: 190803821900500201
+    second: Dulces_1
+  - first:
+      213: 899124599398693110
+    second: Dulces_2
+  - first:
+      213: 7955123411048366557
+    second: Dulces_3
+  - first:
+      213: -1461530265876157860
+    second: Dulces_4
+  - first:
+      213: 2658099676223159820
+    second: Dulces_5
+  - first:
+      213: -1038722180337670900
+    second: Dulces_6
+  - first:
+      213: -8269608052164648296
+    second: Dulces_7
+  - first:
+      213: -1508548072158947811
+    second: Dulces_8
+  - first:
+      213: 6642108436316051113
+    second: Dulces_9
+  - first:
+      213: -2796850323265498521
+    second: Dulces_10
+  - first:
+      213: 2030366390574644033
+    second: Dulces_11
+  - first:
+      213: 9185274569143260786
+    second: Dulces_12
+  - first:
+      213: -7373457979379344928
+    second: Dulces_13
+  - first:
+      213: 2026199667719490283
+    second: Dulces_14
+  - first:
+      213: 4048893335863354216
+    second: Dulces_15
+  - first:
+      213: 1853692603058131362
+    second: Dulces_16
+  - first:
+      213: 1654460519431958196
+    second: Dulces_17
+  - first:
+      213: 2632805112870803707
+    second: Dulces_18
+  - first:
+      213: 7804191958337598601
+    second: Dulces_19
+  - first:
+      213: 6483022872503870673
+    second: Dulces_20
+  - first:
+      213: -3361675793584778775
+    second: Dulces_21
+  - first:
+      213: 3924243505635982284
+    second: Dulces_22
+  - first:
+      213: 6330059639777956751
+    second: Dulces_23
+  - first:
+      213: -843036655508760108
+    second: Dulces_24
+  - first:
+      213: 6221674702768642291
+    second: Dulces_25
+  - first:
+      213: -2723894785086955204
+    second: Dulces_26
+  - first:
+      213: -4338683201423569701
+    second: Dulces_27
+  - first:
+      213: 8941440171857367058
+    second: Dulces_28
+  - first:
+      213: 1473959846323134597
+    second: Dulces_29
+  - first:
+      213: -1755488020793936969
+    second: Dulces_30
+  - first:
+      213: 3343026928407290566
+    second: Dulces_31
+  - first:
+      213: -3166382562370152609
+    second: Dulces_32
+  - first:
+      213: -7755585392397519800
+    second: Dulces_33
+  - first:
+      213: -4234521761676480225
+    second: Dulces_34
+  - first:
+      213: 3385742053542986183
+    second: Dulces_35
+  - first:
+      213: 4464253827858311636
+    second: Dulces_36
+  - first:
+      213: 2267101554672403674
+    second: Dulces_37
+  - first:
+      213: -6034473364379726745
+    second: Dulces_38
+  - first:
+      213: -8019987226401722238
+    second: Dulces_39
+  - first:
+      213: -6350988370310848924
+    second: Dulces_40
+  - first:
+      213: -2122955914516131027
+    second: Dulces_41
+  - first:
+      213: -3528333116700434238
+    second: Dulces_42
+  - first:
+      213: 1871652973023820549
+    second: Dulces_43
+  - first:
+      213: 7878455097196321617
+    second: Dulces_44
+  - first:
+      213: 6496207229177520348
+    second: Dulces_45
+  - first:
+      213: -3695731100439892990
+    second: Dulces_46
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Dulces_0
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 859
+        width: 171
+        height: 164
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9fa8a4046be13f7d0800000000000000
+      internalID: -2885929168102847751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dulces_1
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 933
+        width: 100
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ec8a2aa01fd5a200800000000000000
+      internalID: 190803821900500201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dulces_2
+      rect:
+        serializedVersion: 2
+        x: 445
+        y: 929
+        width: 101
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f879f33f055a7c00800000000000000
+      internalID: 899124599398693110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dulces_3
+      rect:
+        serializedVersion: 2
+        x: 565
+        y: 924
+        width: 107
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd18ee32896466e60800000000000000
+      internalID: 7955123411048366557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dulces_4
+      rect:
+        serializedVersion: 2
+        x: 716
+        y: 801
+        width: 60
+        height: 220
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5a28f977f997bbe0800000000000000
+      internalID: -1461530265876157860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dulces_5
+      rect:
+        serializedVersion: 2
+        x: 845
+        y: 936
+        width: 197
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0ebcd2829773e420800000000000000
+      internalID: 2658099676223159820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dulces_6
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 813
+        width: 109
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0567ac2ea7b591f0800000000000000
+      internalID: -1038722180337670900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dulces_7
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 809
+        width: 109
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89224037a437c3d80800000000000000
+      internalID: -8269608052164648296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dulces_8
+      rect:
+        serializedVersion: 2
+        x: 569
+        y: 813
+        width: 101
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d169d50658f801be0800000000000000
+      internalID: -1508548072158947811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dulces_9
+      rect:
+        serializedVersion: 2
+        x: 808
+        y: 797
+        width: 102
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a65e327e628d2c50800000000000000
+      internalID: 6642108436316051113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dulces_10
+      rect:
+        serializedVersion: 2
+        x: 945
+        y: 784
+        width: 109
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 762d2d703779f29d0800000000000000
+      internalID: -2796850323265498521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dulces_11
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 715
+        width: 139
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14bf712997f4d2c10800000000000000
+      internalID: 2030366390574644033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dulces_12
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 677
+        width: 59
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27696321e86a87f70800000000000000
+      internalID: 9185274569143260786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dulces_13
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 685
+        width: 179
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e913d4b8073ca990800000000000000
+      internalID: -7373457979379344928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dulces_14
+      rect:
+        serializedVersion: 2
+        x: 669
+        y: 681
+        width: 132
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bea4f6eccd18e1c10800000000000000
+      internalID: 2026199667719490283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dulces_15
+      rect:
+        serializedVersion: 2
+        x: 822
+        y: 678
+        width: 84
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 863e499790f803830800000000000000
+      internalID: 4048893335863354216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dulces_16
+      rect:
+        serializedVersion: 2
+        x: 941
+        y: 673
+        width: 108
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a19c08e993a9b910800000000000000
+      internalID: 1853692603058131362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dulces_17
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 443
+        width: 197
+        height: 212
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4be66a3a313d5f610800000000000000
+      internalID: 1654460519431958196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dulces_18
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 446
+        width: 92
+        height: 155
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf81f7b0d4a998420800000000000000
+      internalID: 2632805112870803707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dulces_19
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 442
+        width: 84
+        height: 155
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9843cabdc3f0e4c60800000000000000
+      internalID: 7804191958337598601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dulces_20
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 541
+        width: 46
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d4635a34f258f950800000000000000
+      internalID: 6483022872503870673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dulces_21
+      rect:
+        serializedVersion: 2
+        x: 682
+        y: 553
+        width: 99
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e199593dade851d0800000000000000
+      internalID: -3361675793584778775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dulces_22
+      rect:
+        serializedVersion: 2
+        x: 802
+        y: 550
+        width: 100
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ccbf0954da6b57630800000000000000
+      internalID: 3924243505635982284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dulces_23
+      rect:
+        serializedVersion: 2
+        x: 929
+        y: 545
+        width: 100
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f83900c44b3e8d750800000000000000
+      internalID: 6330059639777956751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dulces_24
+      rect:
+        serializedVersion: 2
+        x: 549
+        y: 429
+        width: 100
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d954cfd0aeec44f0800000000000000
+      internalID: -843036655508760108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dulces_25
+      rect:
+        serializedVersion: 2
+        x: 685
+        y: 426
+        width: 76
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f81f86ad24d75650800000000000000
+      internalID: 6221674702768642291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dulces_26
+      rect:
+        serializedVersion: 2
+        x: 805
+        y: 422
+        width: 84
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c316a51ff18c23ad0800000000000000
+      internalID: -2723894785086955204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dulces_27
+      rect:
+        serializedVersion: 2
+        x: 925
+        y: 393
+        width: 109
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bdc813a9d96e9c3c0800000000000000
+      internalID: -4338683201423569701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dulces_28
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 92
+        width: 199
+        height: 277
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21057f76670661c70800000000000000
+      internalID: 8941440171857367058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dulces_29
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 294
+        width: 86
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 580a74dbbae847410800000000000000
+      internalID: 1473959846323134597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dulces_30
+      rect:
+        serializedVersion: 2
+        x: 425
+        y: 313
+        width: 85
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b3bf1132f043a7e0800000000000000
+      internalID: -1755488020793936969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dulces_31
+      rect:
+        serializedVersion: 2
+        x: 569
+        y: 301
+        width: 85
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c2284e7741d46e20800000000000000
+      internalID: 3343026928407290566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dulces_32
+      rect:
+        serializedVersion: 2
+        x: 689
+        y: 305
+        width: 77
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f579fe2f5dfbe04d0800000000000000
+      internalID: -3166382562370152609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dulces_33
+      rect:
+        serializedVersion: 2
+        x: 793
+        y: 309
+        width: 93
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 844ffec2d20ae5490800000000000000
+      internalID: -7755585392397519800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dulces_34
+      rect:
+        serializedVersion: 2
+        x: 946
+        y: 274
+        width: 68
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f11bc99a4e4fb35c0800000000000000
+      internalID: -4234521761676480225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dulces_35
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 196
+        width: 117
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c1088295729cfe20800000000000000
+      internalID: 3385742053542986183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dulces_36
+      rect:
+        serializedVersion: 2
+        x: 421
+        y: 169
+        width: 101
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d92cac243734fd30800000000000000
+      internalID: 4464253827858311636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dulces_37
+      rect:
+        serializedVersion: 2
+        x: 533
+        y: 165
+        width: 109
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad40cf33adc567f10800000000000000
+      internalID: 2267101554672403674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dulces_38
+      rect:
+        serializedVersion: 2
+        x: 677
+        y: 177
+        width: 101
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76c0795727e314ca0800000000000000
+      internalID: -6034473364379726745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dulces_39
+      rect:
+        serializedVersion: 2
+        x: 813
+        y: 149
+        width: 77
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 280b72bfb1843b090800000000000000
+      internalID: -8019987226401722238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dulces_40
+      rect:
+        serializedVersion: 2
+        x: 925
+        y: 145
+        width: 100
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46e1cf6e9b1ccd7a0800000000000000
+      internalID: -6350988370310848924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dulces_41
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 39
+        width: 86
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d239379f7deb982e0800000000000000
+      internalID: -2122955914516131027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dulces_42
+      rect:
+        serializedVersion: 2
+        x: 417
+        y: 41
+        width: 93
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c0e2d969b7d80fc0800000000000000
+      internalID: -3528333116700434238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dulces_43
+      rect:
+        serializedVersion: 2
+        x: 537
+        y: 53
+        width: 101
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50b73e7667279f910800000000000000
+      internalID: 1871652973023820549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dulces_44
+      rect:
+        serializedVersion: 2
+        x: 665
+        y: 49
+        width: 101
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15b90474b25e55d60800000000000000
+      internalID: 7878455097196321617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dulces_45
+      rect:
+        serializedVersion: 2
+        x: 785
+        y: 29
+        width: 109
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd0637a7e0a272a50800000000000000
+      internalID: 6496207229177520348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dulces_46
+      rect:
+        serializedVersion: 2
+        x: 929
+        y: 10
+        width: 93
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20caaec152026bcc0800000000000000
+      internalID: -3695731100439892990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Dulces_0: -2885929168102847751
+      Dulces_1: 190803821900500201
+      Dulces_10: -2796850323265498521
+      Dulces_11: 2030366390574644033
+      Dulces_12: 9185274569143260786
+      Dulces_13: -7373457979379344928
+      Dulces_14: 2026199667719490283
+      Dulces_15: 4048893335863354216
+      Dulces_16: 1853692603058131362
+      Dulces_17: 1654460519431958196
+      Dulces_18: 2632805112870803707
+      Dulces_19: 7804191958337598601
+      Dulces_2: 899124599398693110
+      Dulces_20: 6483022872503870673
+      Dulces_21: -3361675793584778775
+      Dulces_22: 3924243505635982284
+      Dulces_23: 6330059639777956751
+      Dulces_24: -843036655508760108
+      Dulces_25: 6221674702768642291
+      Dulces_26: -2723894785086955204
+      Dulces_27: -4338683201423569701
+      Dulces_28: 8941440171857367058
+      Dulces_29: 1473959846323134597
+      Dulces_3: 7955123411048366557
+      Dulces_30: -1755488020793936969
+      Dulces_31: 3343026928407290566
+      Dulces_32: -3166382562370152609
+      Dulces_33: -7755585392397519800
+      Dulces_34: -4234521761676480225
+      Dulces_35: 3385742053542986183
+      Dulces_36: 4464253827858311636
+      Dulces_37: 2267101554672403674
+      Dulces_38: -6034473364379726745
+      Dulces_39: -8019987226401722238
+      Dulces_4: -1461530265876157860
+      Dulces_40: -6350988370310848924
+      Dulces_41: -2122955914516131027
+      Dulces_42: -3528333116700434238
+      Dulces_43: 1871652973023820549
+      Dulces_44: 7878455097196321617
+      Dulces_45: 6496207229177520348
+      Dulces_46: -3695731100439892990
+      Dulces_5: 2658099676223159820
+      Dulces_6: -1038722180337670900
+      Dulces_7: -8269608052164648296
+      Dulces_8: -1508548072158947811
+      Dulces_9: 6642108436316051113
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
