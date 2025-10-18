@@ -1,56 +1,95 @@
+using System.Collections.Generic;
 using UnityEngine;
 
 public class SpawnEnemigos : MonoBehaviour
 {
-    public GameObject enemigoPrefab;
-    public Transform jugador;
-    public float distanciaExtra = 2f;
-    public float tiempoEntreSpawns = 2f;
+    public string monsterName;
+    public float minSpawnTime = 2f;
+    public float maxSpawnTime = 5f;
+    public Vector2 spawnAreaMin = new Vector2(-10, -10);
+    public Vector2 spawnAreaMax = new Vector2(10, 10);
+    public float followRange = 5f;
+    public float moveSpeed = 2f; 
 
-    float timer;
+    private float nextSpawnTime;
+    protected bool isActive = true;
+    private SpriteRenderer spriteRenderer;
+    private Collider2D collider2D;
+    private Transform playerTransform; 
 
-    void Update()
+    protected virtual void Start()
     {
-        timer += Time.deltaTime;
+        spriteRenderer = GetComponent<SpriteRenderer>();
+        collider2D = GetComponent<Collider2D>();
+        SetNextSpawnTime();
 
-        if (timer >= tiempoEntreSpawns)
+        
+        GameObject player = GameObject.FindGameObjectWithTag("Player");
+        if (player != null)
         {
-            SpawnEnemigo();
-            timer = 0f;
+            playerTransform = player.transform;
         }
     }
 
-    void SpawnEnemigo()
+    protected virtual void Update()
     {
-        Vector3 posJugador = jugador.position;
-
-        Vector3 esquinaInferiorIzq = Camera.main.ViewportToWorldPoint(new Vector3(0, 0, Camera.main.nearClipPlane));
-        Vector3 esquinaSuperiorDer = Camera.main.ViewportToWorldPoint(new Vector3(1, 1, Camera.main.nearClipPlane));
-
-        float xMin = esquinaInferiorIzq.x - distanciaExtra;
-        float xMax = esquinaSuperiorDer.x + distanciaExtra;
-        float yMin = esquinaInferiorIzq.y - distanciaExtra;
-        float yMax = esquinaSuperiorDer.y + distanciaExtra;
-
-        int borde = Random.Range(0, 4);
-        Vector3 spawnPos = Vector3.zero;
-
-        switch (borde)
+        if (!isActive)
         {
-            case 0: // izquierda
-                spawnPos = new Vector3(xMin, Random.Range(yMin, yMax), 0);
-                break;
-            case 1: // derecha
-                spawnPos = new Vector3(xMax, Random.Range(yMin, yMax), 0);
-                break;
-            case 2: // abajo
-                spawnPos = new Vector3(Random.Range(xMin, xMax), yMin, 0);
-                break;
-            case 3: // arriba
-                spawnPos = new Vector3(Random.Range(xMin, xMax), yMax, 0);
-                break;
+            nextSpawnTime -= Time.deltaTime;
+            if (nextSpawnTime <= 0f)
+            {
+                Respawn();
+            }
         }
+        else if (playerTransform != null)
+        {
+            FollowPlayerIfInRange();
+        }
+    }
 
-        Instantiate(enemigoPrefab, spawnPos, Quaternion.identity);
+    protected virtual void OnTriggerEnter2D(Collider2D other)
+    {
+        if (isActive && other.CompareTag("Player"))
+        {
+            DestroyEnemy();
+        }
+    }
+
+    protected void DestroyEnemy()
+    {
+        isActive = false;
+        if (spriteRenderer != null) spriteRenderer.enabled = false;
+        if (collider2D != null) collider2D.enabled = false;
+        SetNextSpawnTime();
+    }
+
+    protected void Respawn()
+    {
+        Vector2 randomPos = new Vector2(
+            Random.Range(spawnAreaMin.x, spawnAreaMax.x),
+            Random.Range(spawnAreaMin.y, spawnAreaMax.y)
+        );
+        transform.position = randomPos;
+        isActive = true;
+        if (spriteRenderer != null) spriteRenderer.enabled = true;
+        if (collider2D != null) collider2D.enabled = true;
+    }
+
+    protected void SetNextSpawnTime()
+    {
+        nextSpawnTime = Random.Range(minSpawnTime, maxSpawnTime);
+    }
+
+    private void FollowPlayerIfInRange()
+    {
+        // Calcular la distancia al jugador
+        float distanceToPlayer = Vector2.Distance(transform.position, playerTransform.position);
+
+        // Si el jugador está dentro del rango, moverse hacia él
+        if (distanceToPlayer <= followRange)
+        {
+            Vector2 direction = (playerTransform.position - transform.position).normalized;
+            transform.position = Vector2.MoveTowards(transform.position, playerTransform.position, moveSpeed * Time.deltaTime);
+        }
     }
 }
