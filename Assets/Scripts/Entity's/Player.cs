@@ -5,7 +5,7 @@ using UnityEngine.InputSystem;
 public class Player : Entity
 {
     [SerializeField] private Transform target;
-    public int Health;
+    public int Health = 50;
     public InputSystem_Actions input;
     public float speed;
     public Vector2 moveInput;
