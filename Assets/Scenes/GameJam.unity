@@ -12303,7 +12303,7 @@ MonoBehaviour:
   speed: 3
   moveInput: {x: 0, y: 0}
   PistolTransform: {fileID: 1485975278}
-  BulletPrefab: {fileID: 4907297130085949052, guid: 30046bdf81e98cc408758f483d1211c9, type: 3}
+  BulletPrefab: {fileID: 8622191270532225101, guid: a5ac2038124e0c540b3db611e718f73d, type: 3}
 --- !u!50 &1449291579
 Rigidbody2D:
   serializedVersion: 5
@@ -12577,6 +12577,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1485975278}
+  - component: {fileID: 1485975279}
   m_Layer: 0
   m_Name: PistolOrigin
   m_TagString: Untagged
@@ -12599,6 +12600,28 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1449291576}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &1485975279
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1485975277}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 56cf7d763be9916469b18d5891c3d213, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1001 &1486267948
 PrefabInstance:
   m_ObjectHideFlags: 0
