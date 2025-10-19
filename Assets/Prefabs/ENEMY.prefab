@@ -11,11 +11,11 @@ GameObject:
   - component: {fileID: 3960381256755974268}
   - component: {fileID: 7224853567558770809}
   - component: {fileID: 8553434775152399558}
-  - component: {fileID: 6658542945361614938}
-  - component: {fileID: 3067172070917579151}
+  - component: {fileID: -3051007135108289086}
+  - component: {fileID: -398904862214816153}
   m_Layer: 0
   m_Name: ENEMY
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -136,7 +136,27 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 2.3677707, y: 2.3607588}
   m_EdgeRadius: 0
---- !u!50 &6658542945361614938
+--- !u!114 &-3051007135108289086
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4742478683503995019}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 91b306ed4acd9084aa2ca53402cf7e6f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  EntityName: Phatom X_X
+  Enemy_vida: 40
+  minSpawnTime: 2
+  maxSpawnTime: 5
+  spawnAreaMin: {x: -10, y: -10}
+  spawnAreaMax: {x: 10, y: 10}
+  followRange: 5
+  moveSpeed: 2
+--- !u!50 &-398904862214816153
 Rigidbody2D:
   serializedVersion: 5
   m_ObjectHideFlags: 0
@@ -163,22 +183,3 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 4
---- !u!114 &3067172070917579151
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4742478683503995019}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b2134ae9ba4aace4fb903d0c12897a76, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  monsterName: xd
-  minSpawnTime: 5
-  maxSpawnTime: 10
-  spawnAreaMin: {x: -20, y: -20}
-  spawnAreaMax: {x: 20, y: 20}
-  followRange: 3
-  moveSpeed: 2
