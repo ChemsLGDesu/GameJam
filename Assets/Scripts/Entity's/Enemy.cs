@@ -91,7 +91,7 @@ public class Enemy : Entity , IDamage
 
     public void ReceiveDamage(int damage)
     {
-        damage = 5;
+        damage = 10;
         Enemy_vida -= damage;
         if(Enemy_vida <= 0)
         {

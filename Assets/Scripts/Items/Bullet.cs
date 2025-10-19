@@ -20,7 +20,7 @@ public class Bullet : MonoBehaviour
     {
         if(collision.tag == "Enemy")
         {
-            collision.GetComponent<Enemy>().ReceiveDamage(5);
+            collision.GetComponent<Enemy>().ReceiveDamage(10);
             Destroy(gameObject);
         }
         if(collision.tag == "Wall")

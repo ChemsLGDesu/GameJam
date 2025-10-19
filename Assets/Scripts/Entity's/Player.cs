@@ -14,8 +14,7 @@ public class Player : Entity,IAttack,IDamage
 {
     [SerializeField] private AnimationState StateAnimation;
     private Animator animator;
-    [SerializeField] private float currentTime;
-    [SerializeField] private float TimeSpawnBullet;
+    [SerializeField] private GameManager gm;
     public int Health = 50;
     public InputSystem_Actions input;
     public float speed;
@@ -86,8 +85,7 @@ public class Player : Entity,IAttack,IDamage
         
         }
         
-       
-        currentTime += Time.deltaTime;
+               
         /*
         MovementMechanics();
         
@@ -171,8 +169,9 @@ public class Player : Entity,IAttack,IDamage
         }
     }
     public void Attack()
-    { currentTime += Time.deltaTime;
-        if ((Input.GetMouseButtonDown(0) && currentTime >= TimeSpawnBullet))
+    { 
+        
+        if ((Input.GetMouseButtonDown(0) && gm.currentTime >= gm.TimeSpawnBullet))
         {
           Vector2 mousePos = Input.mousePosition;
             Vector3 GamePos = Camera.main.ScreenToWorldPoint(mousePos);      
@@ -180,7 +179,7 @@ public class Player : Entity,IAttack,IDamage
             Vector3 dir = (GamePos - PistolTransform.position).normalized;
             GameObject bullet = Instantiate(BulletPrefab, PistolTransform.position, Quaternion.identity);
             bullet.transform.up = dir;
-            currentTime = 0;
+            gm.currentTime = 0;
         }     
         return;
     }
