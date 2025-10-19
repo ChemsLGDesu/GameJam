@@ -3,6 +3,8 @@ using UnityEngine;
 public class Recollectable_Item : ItemTypes
 {   
     [SerializeField] private Transform target;
+    [SerializeField] private float cantidadPuntos;
+    [SerializeField] private Puntaje puntaje;
     public GameManager gm;
     void Start()
     {
@@ -19,6 +21,7 @@ public class Recollectable_Item : ItemTypes
     {
         if(collision.tag == "Player")
         {
+            puntaje.SumarPuntos(cantidadPuntos);
             gm.counter++;
             Destroy(gameObject);
         }

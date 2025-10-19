@@ -890,6 +890,81 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 53912ac7501e99e48a68641582158598, type: 3}
+--- !u!1 &92446411
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 92446412}
+  - component: {fileID: 92446414}
+  - component: {fileID: 92446413}
+  m_Layer: 5
+  m_Name: Punpink
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &92446412
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 92446411}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1238933031}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 906.4145, y: 487}
+  m_SizeDelta: {x: 72.941, y: 71.747}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &92446413
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 92446411}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 190803821900500201, guid: f8637468f1f0d474cb8215a8dd11c78a, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &92446414
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 92446411}
+  m_CullTransparentMesh: 1
 --- !u!1001 &95210345
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1082,6 +1157,10 @@ PrefabInstance:
       propertyPath: gm
       value: 
       objectReference: {fileID: 315239778}
+    - target: {fileID: 4555206045007668215, guid: 43beba0fc4afc684b9a7b46ef375238e, type: 3}
+      propertyPath: puntaje
+      value: 
+      objectReference: {fileID: 737092527}
     - target: {fileID: 7880551231810243587, guid: 43beba0fc4afc684b9a7b46ef375238e, type: 3}
       propertyPath: m_Name
       value: CalabazaPrefab (6)
@@ -1689,7 +1768,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8553434775152399558, guid: f840a2943ad141e49a0f033e347e006f, type: 3}
       propertyPath: m_IsTrigger
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -2389,6 +2468,10 @@ PrefabInstance:
       propertyPath: gm
       value: 
       objectReference: {fileID: 315239778}
+    - target: {fileID: 7112872059328716971, guid: 228ec946d3e778b48b76c2e4b3484ba2, type: 3}
+      propertyPath: puntaje
+      value: 
+      objectReference: {fileID: 737092527}
     - target: {fileID: 7818339440923889262, guid: 228ec946d3e778b48b76c2e4b3484ba2, type: 3}
       propertyPath: m_Name
       value: Dulces (1)
@@ -4002,7 +4085,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8553434775152399558, guid: f840a2943ad141e49a0f033e347e006f, type: 3}
       propertyPath: m_IsTrigger
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -4369,7 +4452,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8553434775152399558, guid: f840a2943ad141e49a0f033e347e006f, type: 3}
       propertyPath: m_IsTrigger
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -6126,6 +6209,155 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 3960381256755974268, guid: f840a2943ad141e49a0f033e347e006f, type: 3}
   m_PrefabInstance: {fileID: 1546731901}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &737092525
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 737092526}
+  - component: {fileID: 737092529}
+  - component: {fileID: 737092528}
+  - component: {fileID: 737092527}
+  m_Layer: 5
+  m_Name: Puntaje
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &737092526
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 737092525}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1238933031}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 1, y: 1}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: -88.20001, y: -2.3068237}
+  m_SizeDelta: {x: 324.924, y: 139.124}
+  m_Pivot: {x: 1, y: 1}
+--- !u!114 &737092527
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 737092525}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b92825a1b1a214044a4c70e9414fb2a4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &737092528
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 737092525}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_text: 200
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontSharedMaterials: []
+  m_fontMaterial: {fileID: 0}
+  m_fontMaterials: []
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+  m_enableVertexGradient: 0
+  m_colorMode: 3
+  m_fontColorGradient:
+    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topRight: {r: 1, g: 1, b: 1, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColorGradientPreset: {fileID: 0}
+  m_spriteAsset: {fileID: 0}
+  m_tintAllSprites: 0
+  m_StyleSheet: {fileID: 0}
+  m_TextStyleHashCode: -1183493901
+  m_overrideHtmlColors: 0
+  m_faceColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontSize: 72
+  m_fontSizeBase: 36
+  m_fontWeight: 400
+  m_enableAutoSizing: 1
+  m_fontSizeMin: 18
+  m_fontSizeMax: 72
+  m_fontStyle: 1
+  m_HorizontalAlignment: 2
+  m_VerticalAlignment: 512
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_wordSpacing: 0
+  m_lineSpacing: 0
+  m_lineSpacingMax: 0
+  m_paragraphSpacing: 0
+  m_charWidthMaxAdj: 0
+  m_TextWrappingMode: 1
+  m_wordWrappingRatios: 0.4
+  m_overflowMode: 0
+  m_linkedTextComponent: {fileID: 0}
+  parentLinkedComponent: {fileID: 0}
+  m_enableKerning: 0
+  m_ActiveFontFeatures: 6e72656b
+  m_enableExtraPadding: 0
+  checkPaddingRequired: 0
+  m_isRichText: 1
+  m_EmojiFallbackSupport: 1
+  m_parseCtrlCharacters: 1
+  m_isOrthographic: 1
+  m_isCullingEnabled: 0
+  m_horizontalMapping: 0
+  m_verticalMapping: 0
+  m_uvLineOffset: 0
+  m_geometrySortingOrder: 0
+  m_IsTextObjectScaleStatic: 0
+  m_VertexBufferAutoSizeReduction: 0
+  m_useMaxVisibleDescender: 1
+  m_pageToDisplay: 1
+  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_isUsingLegacyAnimationComponent: 0
+  m_isVolumetricText: 0
+  m_hasFontAssetChanged: 0
+  m_baseMaterial: {fileID: 0}
+  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!222 &737092529
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 737092525}
+  m_CullTransparentMesh: 1
 --- !u!4 &739021706 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8983703739026125, guid: 53912ac7501e99e48a68641582158598, type: 3}
@@ -6435,6 +6667,10 @@ PrefabInstance:
       propertyPath: gm
       value: 
       objectReference: {fileID: 315239778}
+    - target: {fileID: 7112872059328716971, guid: 228ec946d3e778b48b76c2e4b3484ba2, type: 3}
+      propertyPath: puntaje
+      value: 
+      objectReference: {fileID: 737092527}
     - target: {fileID: 7818339440923889262, guid: 228ec946d3e778b48b76c2e4b3484ba2, type: 3}
       propertyPath: m_Name
       value: Dulces (4)
@@ -6761,6 +6997,10 @@ PrefabInstance:
       propertyPath: gm
       value: 
       objectReference: {fileID: 315239778}
+    - target: {fileID: 4555206045007668215, guid: 43beba0fc4afc684b9a7b46ef375238e, type: 3}
+      propertyPath: puntaje
+      value: 
+      objectReference: {fileID: 737092527}
     - target: {fileID: 7880551231810243587, guid: 43beba0fc4afc684b9a7b46ef375238e, type: 3}
       propertyPath: m_Name
       value: CalabazaPrefab (4)
@@ -6770,6 +7010,81 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 43beba0fc4afc684b9a7b46ef375238e, type: 3}
+--- !u!1 &803912694
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 803912695}
+  - component: {fileID: 803912697}
+  - component: {fileID: 803912696}
+  m_Layer: 5
+  m_Name: DulceRojo
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &803912695
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 803912694}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1238933031}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 845.6, y: 484.94}
+  m_SizeDelta: {x: 66.221, y: 64.234}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &803912696
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 803912694}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 6330059639777956751, guid: f8637468f1f0d474cb8215a8dd11c78a, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &803912697
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 803912694}
+  m_CullTransparentMesh: 1
 --- !u!4 &806112656 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8983703739026125, guid: 53912ac7501e99e48a68641582158598, type: 3}
@@ -7039,6 +7354,10 @@ PrefabInstance:
       propertyPath: gm
       value: 
       objectReference: {fileID: 315239778}
+    - target: {fileID: 8663046528694279708, guid: eb5a00b667cfb0d4aaaef996429c709a, type: 3}
+      propertyPath: puntaje
+      value: 
+      objectReference: {fileID: 737092527}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -7960,6 +8279,10 @@ PrefabInstance:
       propertyPath: gm
       value: 
       objectReference: {fileID: 315239778}
+    - target: {fileID: 4555206045007668215, guid: 43beba0fc4afc684b9a7b46ef375238e, type: 3}
+      propertyPath: puntaje
+      value: 
+      objectReference: {fileID: 737092527}
     - target: {fileID: 7880551231810243587, guid: 43beba0fc4afc684b9a7b46ef375238e, type: 3}
       propertyPath: m_Name
       value: CalabazaPrefab (8)
@@ -8593,7 +8916,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8553434775152399558, guid: f840a2943ad141e49a0f033e347e006f, type: 3}
       propertyPath: m_IsTrigger
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -8677,6 +9000,10 @@ PrefabInstance:
       propertyPath: gm
       value: 
       objectReference: {fileID: 315239778}
+    - target: {fileID: 4555206045007668215, guid: 43beba0fc4afc684b9a7b46ef375238e, type: 3}
+      propertyPath: puntaje
+      value: 
+      objectReference: {fileID: 737092527}
     - target: {fileID: 7880551231810243587, guid: 43beba0fc4afc684b9a7b46ef375238e, type: 3}
       propertyPath: m_Name
       value: CalabazaPrefab (9)
@@ -9153,6 +9480,10 @@ PrefabInstance:
       propertyPath: gm
       value: 
       objectReference: {fileID: 315239778}
+    - target: {fileID: 7112872059328716971, guid: 228ec946d3e778b48b76c2e4b3484ba2, type: 3}
+      propertyPath: puntaje
+      value: 
+      objectReference: {fileID: 737092527}
     - target: {fileID: 7818339440923889262, guid: 228ec946d3e778b48b76c2e4b3484ba2, type: 3}
       propertyPath: m_Name
       value: Dulces (6)
@@ -10206,6 +10537,10 @@ PrefabInstance:
       propertyPath: gm
       value: 
       objectReference: {fileID: 315239778}
+    - target: {fileID: 7112872059328716971, guid: 228ec946d3e778b48b76c2e4b3484ba2, type: 3}
+      propertyPath: puntaje
+      value: 
+      objectReference: {fileID: 737092527}
     - target: {fileID: 7818339440923889262, guid: 228ec946d3e778b48b76c2e4b3484ba2, type: 3}
       propertyPath: m_Name
       value: Dulces
@@ -10292,7 +10627,7 @@ Canvas:
   m_OverridePixelPerfect: 0
   m_SortingBucketNormalizedSize: 0
   m_VertexColorAlwaysGammaSpace: 0
-  m_AdditionalShaderChannelsFlag: 0
+  m_AdditionalShaderChannelsFlag: 25
   m_UpdateRectTransformForStandalone: 0
   m_SortingLayerID: 0
   m_SortingOrder: 0
@@ -10310,6 +10645,11 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1900982850}
+  - {fileID: 737092526}
+  - {fileID: 1719104417}
+  - {fileID: 1554680512}
+  - {fileID: 803912695}
+  - {fileID: 92446412}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -10576,6 +10916,10 @@ PrefabInstance:
       propertyPath: gm
       value: 
       objectReference: {fileID: 315239778}
+    - target: {fileID: 8663046528694279708, guid: eb5a00b667cfb0d4aaaef996429c709a, type: 3}
+      propertyPath: puntaje
+      value: 
+      objectReference: {fileID: 737092527}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -10736,7 +11080,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8553434775152399558, guid: f840a2943ad141e49a0f033e347e006f, type: 3}
       propertyPath: m_IsTrigger
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -11027,6 +11371,10 @@ PrefabInstance:
       propertyPath: gm
       value: 
       objectReference: {fileID: 315239778}
+    - target: {fileID: 4555206045007668215, guid: 43beba0fc4afc684b9a7b46ef375238e, type: 3}
+      propertyPath: puntaje
+      value: 
+      objectReference: {fileID: 737092527}
     - target: {fileID: 7880551231810243587, guid: 43beba0fc4afc684b9a7b46ef375238e, type: 3}
       propertyPath: m_Name
       value: CalabazaPrefab (7)
@@ -11256,14 +11604,6 @@ PrefabInstance:
       value: CarameloAzul (1)
       objectReference: {fileID: 0}
     - target: {fileID: 6181681970841790041, guid: eb5a00b667cfb0d4aaaef996429c709a, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 0.3384168
-      objectReference: {fileID: 0}
-    - target: {fileID: 6181681970841790041, guid: eb5a00b667cfb0d4aaaef996429c709a, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 0.35764834
-      objectReference: {fileID: 0}
-    - target: {fileID: 6181681970841790041, guid: eb5a00b667cfb0d4aaaef996429c709a, type: 3}
       propertyPath: m_LocalPosition.x
       value: 1.502
       objectReference: {fileID: 0}
@@ -11307,6 +11647,10 @@ PrefabInstance:
       propertyPath: gm
       value: 
       objectReference: {fileID: 315239778}
+    - target: {fileID: 8663046528694279708, guid: eb5a00b667cfb0d4aaaef996429c709a, type: 3}
+      propertyPath: puntaje
+      value: 
+      objectReference: {fileID: 737092527}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -12172,6 +12516,10 @@ PrefabInstance:
       propertyPath: gm
       value: 
       objectReference: {fileID: 315239778}
+    - target: {fileID: 4555206045007668215, guid: 43beba0fc4afc684b9a7b46ef375238e, type: 3}
+      propertyPath: puntaje
+      value: 
+      objectReference: {fileID: 737092527}
     - target: {fileID: 7880551231810243587, guid: 43beba0fc4afc684b9a7b46ef375238e, type: 3}
       propertyPath: m_Name
       value: CalabazaPrefab (2)
@@ -12788,6 +13136,10 @@ PrefabInstance:
       propertyPath: gm
       value: 
       objectReference: {fileID: 315239778}
+    - target: {fileID: 7112872059328716971, guid: 228ec946d3e778b48b76c2e4b3484ba2, type: 3}
+      propertyPath: puntaje
+      value: 
+      objectReference: {fileID: 737092527}
     - target: {fileID: 7818339440923889262, guid: 228ec946d3e778b48b76c2e4b3484ba2, type: 3}
       propertyPath: m_Name
       value: Dulces (5)
@@ -13096,6 +13448,81 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f840a2943ad141e49a0f033e347e006f, type: 3}
+--- !u!1 &1554680511
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1554680512}
+  - component: {fileID: 1554680514}
+  - component: {fileID: 1554680513}
+  m_Layer: 5
+  m_Name: DulceAzul
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1554680512
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1554680511}
+  m_LocalRotation: {x: 0.023530664, y: 0.086843304, z: 0.2725012, w: -0.95793927}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1238933031}
+  m_LocalEulerAnglesHint: {x: -5.302, y: -8.871, z: 328.653}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 881.5, y: 505}
+  m_SizeDelta: {x: 52.318, y: 72.065}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1554680513
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1554680511}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: -8019987226401722238, guid: f8637468f1f0d474cb8215a8dd11c78a, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1554680514
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1554680511}
+  m_CullTransparentMesh: 1
 --- !u!4 &1557903282 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8983703739026125, guid: 53912ac7501e99e48a68641582158598, type: 3}
@@ -14175,6 +14602,10 @@ PrefabInstance:
       propertyPath: gm
       value: 
       objectReference: {fileID: 315239778}
+    - target: {fileID: 4555206045007668215, guid: 43beba0fc4afc684b9a7b46ef375238e, type: 3}
+      propertyPath: puntaje
+      value: 
+      objectReference: {fileID: 737092527}
     - target: {fileID: 7880551231810243587, guid: 43beba0fc4afc684b9a7b46ef375238e, type: 3}
       propertyPath: m_Name
       value: CalabazaPrefab (5)
@@ -14241,6 +14672,10 @@ PrefabInstance:
       propertyPath: gm
       value: 
       objectReference: {fileID: 315239778}
+    - target: {fileID: 7112872059328716971, guid: 228ec946d3e778b48b76c2e4b3484ba2, type: 3}
+      propertyPath: puntaje
+      value: 
+      objectReference: {fileID: 737092527}
     - target: {fileID: 7818339440923889262, guid: 228ec946d3e778b48b76c2e4b3484ba2, type: 3}
       propertyPath: m_Name
       value: Dulces (7)
@@ -14325,11 +14760,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 4136845882557030329, guid: 43beba0fc4afc684b9a7b46ef375238e, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 1.59
+      value: 1.36
       objectReference: {fileID: 0}
     - target: {fileID: 4136845882557030329, guid: 43beba0fc4afc684b9a7b46ef375238e, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -2.99
+      value: 5.14
       objectReference: {fileID: 0}
     - target: {fileID: 4136845882557030329, guid: 43beba0fc4afc684b9a7b46ef375238e, type: 3}
       propertyPath: m_LocalPosition.z
@@ -14367,6 +14802,10 @@ PrefabInstance:
       propertyPath: gm
       value: 
       objectReference: {fileID: 315239778}
+    - target: {fileID: 4555206045007668215, guid: 43beba0fc4afc684b9a7b46ef375238e, type: 3}
+      propertyPath: puntaje
+      value: 
+      objectReference: {fileID: 737092527}
     - target: {fileID: 7880551231810243587, guid: 43beba0fc4afc684b9a7b46ef375238e, type: 3}
       propertyPath: m_Name
       value: CalabazaPrefab (3)
@@ -14601,6 +15040,142 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 8983703739026125, guid: 53912ac7501e99e48a68641582158598, type: 3}
   m_PrefabInstance: {fileID: 1622088018}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1719104416
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1719104417}
+  - component: {fileID: 1719104419}
+  - component: {fileID: 1719104418}
+  m_Layer: 5
+  m_Name: Text (TMP)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1719104417
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1719104416}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1238933031}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 500.9, y: 474.12}
+  m_SizeDelta: {x: 348.067, y: 117.48}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1719104418
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1719104416}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_text: 'SCORE:'
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontSharedMaterials: []
+  m_fontMaterial: {fileID: 0}
+  m_fontMaterials: []
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+  m_enableVertexGradient: 0
+  m_colorMode: 3
+  m_fontColorGradient:
+    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topRight: {r: 1, g: 1, b: 1, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColorGradientPreset: {fileID: 0}
+  m_spriteAsset: {fileID: 0}
+  m_tintAllSprites: 0
+  m_StyleSheet: {fileID: 0}
+  m_TextStyleHashCode: -1183493901
+  m_overrideHtmlColors: 0
+  m_faceColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontSize: 72
+  m_fontSizeBase: 36
+  m_fontWeight: 400
+  m_enableAutoSizing: 1
+  m_fontSizeMin: 18
+  m_fontSizeMax: 72
+  m_fontStyle: 1
+  m_HorizontalAlignment: 2
+  m_VerticalAlignment: 512
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_wordSpacing: 0
+  m_lineSpacing: 0
+  m_lineSpacingMax: 0
+  m_paragraphSpacing: 0
+  m_charWidthMaxAdj: 0
+  m_TextWrappingMode: 1
+  m_wordWrappingRatios: 0.4
+  m_overflowMode: 0
+  m_linkedTextComponent: {fileID: 0}
+  parentLinkedComponent: {fileID: 0}
+  m_enableKerning: 0
+  m_ActiveFontFeatures: 6e72656b
+  m_enableExtraPadding: 0
+  checkPaddingRequired: 0
+  m_isRichText: 1
+  m_EmojiFallbackSupport: 1
+  m_parseCtrlCharacters: 1
+  m_isOrthographic: 1
+  m_isCullingEnabled: 0
+  m_horizontalMapping: 0
+  m_verticalMapping: 0
+  m_uvLineOffset: 0
+  m_geometrySortingOrder: 0
+  m_IsTextObjectScaleStatic: 0
+  m_VertexBufferAutoSizeReduction: 0
+  m_useMaxVisibleDescender: 1
+  m_pageToDisplay: 1
+  m_margin: {x: 0, y: -22.165287, z: 0, w: -0.925869}
+  m_isUsingLegacyAnimationComponent: 0
+  m_isVolumetricText: 0
+  m_hasFontAssetChanged: 0
+  m_baseMaterial: {fileID: 0}
+  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!222 &1719104419
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1719104416}
+  m_CullTransparentMesh: 1
 --- !u!4 &1721064549 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8983703739026125, guid: 53912ac7501e99e48a68641582158598, type: 3}
@@ -15478,6 +16053,10 @@ PrefabInstance:
       propertyPath: gm
       value: 
       objectReference: {fileID: 315239778}
+    - target: {fileID: 8663046528694279708, guid: eb5a00b667cfb0d4aaaef996429c709a, type: 3}
+      propertyPath: puntaje
+      value: 
+      objectReference: {fileID: 737092527}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -15600,6 +16179,10 @@ PrefabInstance:
       propertyPath: gm
       value: 
       objectReference: {fileID: 315239778}
+    - target: {fileID: 7112872059328716971, guid: 228ec946d3e778b48b76c2e4b3484ba2, type: 3}
+      propertyPath: puntaje
+      value: 
+      objectReference: {fileID: 737092527}
     - target: {fileID: 7818339440923889262, guid: 228ec946d3e778b48b76c2e4b3484ba2, type: 3}
       propertyPath: m_Name
       value: Dulces (2)
@@ -16820,6 +17403,10 @@ PrefabInstance:
       propertyPath: gm
       value: 
       objectReference: {fileID: 315239778}
+    - target: {fileID: 8663046528694279708, guid: eb5a00b667cfb0d4aaaef996429c709a, type: 3}
+      propertyPath: puntaje
+      value: 
+      objectReference: {fileID: 737092527}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -18006,6 +18593,10 @@ PrefabInstance:
       propertyPath: gm
       value: 
       objectReference: {fileID: 315239778}
+    - target: {fileID: 7112872059328716971, guid: 228ec946d3e778b48b76c2e4b3484ba2, type: 3}
+      propertyPath: puntaje
+      value: 
+      objectReference: {fileID: 737092527}
     - target: {fileID: 7818339440923889262, guid: 228ec946d3e778b48b76c2e4b3484ba2, type: 3}
       propertyPath: m_Name
       value: Dulces (3)
@@ -18072,6 +18663,10 @@ PrefabInstance:
       propertyPath: gm
       value: 
       objectReference: {fileID: 315239778}
+    - target: {fileID: 4555206045007668215, guid: 43beba0fc4afc684b9a7b46ef375238e, type: 3}
+      propertyPath: puntaje
+      value: 
+      objectReference: {fileID: 737092527}
     - target: {fileID: 7880551231810243587, guid: 43beba0fc4afc684b9a7b46ef375238e, type: 3}
       propertyPath: m_Name
       value: CalabazaPrefab (1)
@@ -18922,11 +19517,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 4136845882557030329, guid: 43beba0fc4afc684b9a7b46ef375238e, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 1.59
+      value: 30.54
       objectReference: {fileID: 0}
     - target: {fileID: 4136845882557030329, guid: 43beba0fc4afc684b9a7b46ef375238e, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -2.99
+      value: -7.96
       objectReference: {fileID: 0}
     - target: {fileID: 4136845882557030329, guid: 43beba0fc4afc684b9a7b46ef375238e, type: 3}
       propertyPath: m_LocalPosition.z
@@ -18964,6 +19559,10 @@ PrefabInstance:
       propertyPath: gm
       value: 
       objectReference: {fileID: 315239778}
+    - target: {fileID: 4555206045007668215, guid: 43beba0fc4afc684b9a7b46ef375238e, type: 3}
+      propertyPath: puntaje
+      value: 
+      objectReference: {fileID: 737092527}
     - target: {fileID: 7880551231810243587, guid: 43beba0fc4afc684b9a7b46ef375238e, type: 3}
       propertyPath: m_Name
       value: CalabazaPrefab
@@ -19152,6 +19751,10 @@ PrefabInstance:
       propertyPath: gm
       value: 
       objectReference: {fileID: 315239778}
+    - target: {fileID: 8663046528694279708, guid: eb5a00b667cfb0d4aaaef996429c709a, type: 3}
+      propertyPath: puntaje
+      value: 
+      objectReference: {fileID: 737092527}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
