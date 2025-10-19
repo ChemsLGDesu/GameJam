@@ -8,8 +8,7 @@ public enum AnimationState
     Attack,
     LanzarBomba,
     Dead,
-    None
-    
+    None 
 }
 public class Player : Entity,IAttack,IDamage
 {
@@ -87,18 +86,15 @@ public class Player : Entity,IAttack,IDamage
         
         }
         
-
-
-
-
-
-        /*
+       
         currentTime += Time.deltaTime;
+        /*
         MovementMechanics();
-        Attack();
+        
         LanzarBomba();
         */
-    }
+        Attack();
+     }
     public void MovementMechanics()
     {
         var state = animator.GetCurrentAnimatorStateInfo(0);
