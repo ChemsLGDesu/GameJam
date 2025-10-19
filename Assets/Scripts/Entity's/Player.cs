@@ -1,9 +1,19 @@
 using System.Runtime.CompilerServices;
+using System.Runtime.InteropServices.WindowsRuntime;
 using UnityEngine;
 using UnityEngine.InputSystem;
-
+public enum AnimationState
+{
+    IdleRun,
+    Attack,
+    LanzarBomba,
+    Dead,
+    None
+    
+}
 public class Player : Entity,IAttack,IDamage
 {
+    [SerializeField] private AnimationState StateAnimation;
     private Animator animator;
     [SerializeField] private float currentTime;
     [SerializeField] private float TimeSpawnBullet;
@@ -16,9 +26,6 @@ public class Player : Entity,IAttack,IDamage
     private void Awake()
     {
         input = new();
-    }
-    public void Start()
-    {
         animator = GetComponent<Animator>();
     }
 
@@ -50,22 +57,123 @@ public class Player : Entity,IAttack,IDamage
         moveInput = context.ReadValue<Vector2>();
     }
      void Update()
-    {
+     {
+        if (StateAnimation == AnimationState.Dead)
+        {
+            return;
+        }
+      
+        switch (StateAnimation)
+        {
+            case AnimationState.IdleRun:
+                MovementMechanics();
+                if (Input.GetKeyDown(KeyCode.Space))
+                    
+                {
+                    StateAnimation = AnimationState.LanzarBomba;
+                    Debug.Log("Press");
+                }
+                break;
+
+            case AnimationState.LanzarBomba:
+                LanzarBomba();
+                StateAnimation = GetStateAnimation();
+                break;
+            case
+            AnimationState.Attack:
+                Attack();
+
+                break;
+        
+        }
+        
+
+
+
+
+
+        /*
         currentTime += Time.deltaTime;
         MovementMechanics();
         Attack();
+        LanzarBomba();
+        */
     }
     public void MovementMechanics()
     {
-        transform.position += (Vector3)moveInput * speed * Time.deltaTime;
-     
-        animator.SetFloat("Horizontal", moveInput.x);
-        animator.SetFloat("Vertical", moveInput.y);
-        animator.SetFloat("Speed", moveInput.magnitude);
-    }
-    
-    
+        var state = animator.GetCurrentAnimatorStateInfo(0);
 
+        if (state.IsName("IdleRun"))
+        {
+            if (moveInput != Vector2.zero)
+            {
+                transform.position += (Vector3)moveInput * speed * Time.deltaTime;
+                animator.SetFloat("Horizontal", moveInput.x);
+                animator.SetFloat("Vertical", moveInput.y);
+
+            }
+            else
+            {
+                animator.SetFloat("Horizontal", 0);
+                animator.SetFloat("Vertical", 0);
+
+            }
+            if (moveInput.magnitude > 0)
+            {
+                animator.SetFloat("Speed", moveInput.magnitude);
+            }
+            else
+            {
+                animator.SetFloat("Speed", 0);
+            }
+
+        }
+
+     
+    }
+    private void LanzarBomba() 
+    {
+        var state = animator.GetCurrentAnimatorStateInfo(0);
+        if (state.IsName("IdleRun"))
+        { 
+           animator.SetTrigger("LanzarBomba");
+
+        }
+
+    }
+    private AnimationState GetStateAnimation()
+    {
+        var state = animator.GetCurrentAnimatorStateInfo(0);
+        if (state.IsName("IdleRun"))
+        {
+            return  AnimationState.IdleRun;
+        }
+        else
+        if (state.IsName("LanzarBomba"))
+        {
+            return AnimationState.LanzarBomba;
+        }
+        else
+        if (state.IsName("Atacar"))
+        {
+            return AnimationState.Attack;
+        }
+
+        return AnimationState.None ;
+    }
+    private void UpdateStateAnimation()
+    {
+        var state = animator.GetCurrentAnimatorStateInfo(0);
+        if (state.IsName("IdleRun"))
+        {
+            StateAnimation = AnimationState.IdleRun;
+        }
+        else
+        if (state.IsName("LanzarBomba"))
+        {
+            StateAnimation = AnimationState.LanzarBomba;
+        }
+    }
     public void Attack()
     { currentTime += Time.deltaTime;
         if ((Input.GetMouseButtonDown(0) && currentTime >= TimeSpawnBullet))
@@ -80,6 +188,7 @@ public class Player : Entity,IAttack,IDamage
         }     
         return;
     }
+
     public void ReceiveDamage(int damage)
     {
         damage = 10;
