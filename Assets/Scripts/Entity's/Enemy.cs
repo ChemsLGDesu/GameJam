@@ -78,10 +78,10 @@ public class Enemy : Entity , IDamage
 
     private void FollowPlayerIfInRange()
     {
-        // Calcular la distancia al jugador
+        
         float distanceToPlayer = Vector2.Distance(transform.position, playerTransform.position);
 
-        // Si el jugador est� dentro del rango, moverse hacia �l
+        
         if (distanceToPlayer <= followRange)
         {
             Vector2 direction = (playerTransform.position - transform.position).normalized;

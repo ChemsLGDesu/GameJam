@@ -5,7 +5,7 @@ using UnityEngine.InputSystem;
 public class Kit : ItemTypes
 {
     [SerializeField] private Transform target;
-    public int givehealth = 2;
+    public int givehealth = 10;
     void Start()
     {
         target = GameObject.FindGameObjectWithTag("Player").GetComponent<Transform>();

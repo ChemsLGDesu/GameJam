@@ -66,7 +66,7 @@ public class Player : Entity,IAttack,IDamage
         {
             case AnimationState.IdleRun:
                 MovementMechanics();
-                if (Input.GetKeyDown(KeyCode.Space))
+                if (Input.GetMouseButtonDown(0))
                     
                 {
                     StateAnimation = AnimationState.LanzarBomba;

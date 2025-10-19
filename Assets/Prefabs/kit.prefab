@@ -149,4 +149,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ItemName: Blood kit
   target: {fileID: 0}
-  givehealth: 2
+  givehealth: 10
