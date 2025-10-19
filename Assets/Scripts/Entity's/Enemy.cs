@@ -46,7 +46,7 @@ public class Enemy : Entity , IDamage
     private void OnTriggerEnter2D(Collider2D collition)
     {
         if (collition.tag == "Player")
-        {
+        {           
             collition.GetComponent<Player>().ReceiveDamage(10);           
         }
     }

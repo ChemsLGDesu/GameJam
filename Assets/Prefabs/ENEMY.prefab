@@ -155,3 +155,5 @@ MonoBehaviour:
   spawnAreaMax: {x: 10, y: 10}
   followRange: 3
   moveSpeed: 2
+  cantidadPuntos: 150
+  puntaje: {fileID: 0}

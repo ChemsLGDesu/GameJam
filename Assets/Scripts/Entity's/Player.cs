@@ -191,6 +191,7 @@ public class Player : Entity,IAttack,IDamage
         if (Health <= 0) 
         { 
             Destroy(gameObject);
+            FindAnyObjectByType<GameOver>().MostrarGameOver();
         }
     }
 }
