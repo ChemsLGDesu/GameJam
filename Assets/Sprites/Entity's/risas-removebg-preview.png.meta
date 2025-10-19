@@ -1,0 +1,507 @@
+fileFormatVersion: 2
+guid: b844e49ba1581724c92e9f8f2128e43b
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7575438841062980262
+    second: risas-removebg-preview_0
+  - first:
+      213: -5651385234368944868
+    second: risas-removebg-preview_1
+  - first:
+      213: -7847119822769784995
+    second: risas-removebg-preview_2
+  - first:
+      213: -6595908108962636905
+    second: risas-removebg-preview_3
+  - first:
+      213: -761570347440156806
+    second: risas-removebg-preview_4
+  - first:
+      213: 2945175463523347429
+    second: risas-removebg-preview_5
+  - first:
+      213: 7301156048836463515
+    second: risas-removebg-preview_6
+  - first:
+      213: 4925441068426605180
+    second: risas-removebg-preview_7
+  - first:
+      213: -1458489050227041554
+    second: risas-removebg-preview_8
+  - first:
+      213: -6170405354416646397
+    second: risas-removebg-preview_9
+  - first:
+      213: -2255294405807693133
+    second: risas-removebg-preview_10
+  - first:
+      213: 6555811996675695936
+    second: risas-removebg-preview_11
+  - first:
+      213: -8832479234134970490
+    second: risas-removebg-preview_12
+  - first:
+      213: 6260686089640033832
+    second: risas-removebg-preview_13
+  - first:
+      213: 4433246223821969199
+    second: risas-removebg-preview_14
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: risas-removebg-preview_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 228
+        width: 50
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6aa71435d7d512960800000000000000
+      internalID: 7575438841062980262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: risas-removebg-preview_1
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 228
+        width: 47
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c152d88521f3291b0800000000000000
+      internalID: -5651385234368944868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: risas-removebg-preview_2
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 228
+        width: 50
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5771e5d81e691390800000000000000
+      internalID: -7847119822769784995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: risas-removebg-preview_3
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 228
+        width: 47
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79bd9228580a674a0800000000000000
+      internalID: -6595908108962636905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: risas-removebg-preview_4
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 228
+        width: 47
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7fcb51ddcb5e65f0800000000000000
+      internalID: -761570347440156806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: risas-removebg-preview_5
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 114
+        width: 48
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5eb6188da7d5fd820800000000000000
+      internalID: 2945175463523347429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: risas-removebg-preview_6
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 114
+        width: 41
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9b87944ebae25560800000000000000
+      internalID: 7301156048836463515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: risas-removebg-preview_7
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 114
+        width: 64
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7230bd3e8eaa5440800000000000000
+      internalID: 4925441068426605180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: risas-removebg-preview_8
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 114
+        width: 44
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eea9b6cafe762cbe0800000000000000
+      internalID: -1458489050227041554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: risas-removebg-preview_9
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 114
+        width: 63
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 307d3d9b5015e5aa0800000000000000
+      internalID: -6170405354416646397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: risas-removebg-preview_10
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 0
+        width: 50
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b228eddfa593b0e0800000000000000
+      internalID: -2255294405807693133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: risas-removebg-preview_11
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 45
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 045691cd64ceafa50800000000000000
+      internalID: 6555811996675695936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: risas-removebg-preview_12
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 0
+        width: 50
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68fee5bdeeabc6580800000000000000
+      internalID: -8832479234134970490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: risas-removebg-preview_13
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 0
+        width: 44
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82e3937f3dc62e650800000000000000
+      internalID: 6260686089640033832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: risas-removebg-preview_14
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 0
+        width: 49
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2710c4c3fd068d30800000000000000
+      internalID: 4433246223821969199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      risas-removebg-preview_0: 7575438841062980262
+      risas-removebg-preview_1: -5651385234368944868
+      risas-removebg-preview_10: -2255294405807693133
+      risas-removebg-preview_11: 6555811996675695936
+      risas-removebg-preview_12: -8832479234134970490
+      risas-removebg-preview_13: 6260686089640033832
+      risas-removebg-preview_14: 4433246223821969199
+      risas-removebg-preview_2: -7847119822769784995
+      risas-removebg-preview_3: -6595908108962636905
+      risas-removebg-preview_4: -761570347440156806
+      risas-removebg-preview_5: 2945175463523347429
+      risas-removebg-preview_6: 7301156048836463515
+      risas-removebg-preview_7: 4925441068426605180
+      risas-removebg-preview_8: -1458489050227041554
+      risas-removebg-preview_9: -6170405354416646397
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

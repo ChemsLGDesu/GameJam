@@ -4,6 +4,7 @@ using UnityEngine.InputSystem;
 
 public class Player : Entity,IAttack,IDamage
 {
+    private Animator animator;
     [SerializeField] private float currentTime;
     [SerializeField] private float TimeSpawnBullet;
     public int Health = 50;
@@ -18,7 +19,7 @@ public class Player : Entity,IAttack,IDamage
     }
     public void Start()
     {
-
+        animator = GetComponent<Animator>();
     }
 
     private void OnEnable()
@@ -28,6 +29,8 @@ public class Player : Entity,IAttack,IDamage
         input.Player.Move.started += OnMove;
         input.Player.Move.performed += OnMove;
         input.Player.Move.canceled += OnMove;
+
+      
     }
     private void OnDisable()
     {
@@ -36,6 +39,10 @@ public class Player : Entity,IAttack,IDamage
         input.Player.Move.started -= OnMove;
         input.Player.Move.performed -= OnMove;
         input.Player.Move.canceled -= OnMove;
+
+        animator.SetFloat("Horizontal", 3f);
+        animator.SetFloat("Vertical", 3f);
+        animator.SetFloat("Speed", 3f);
     }
 
     private void OnMove(InputAction.CallbackContext context)
@@ -51,6 +58,10 @@ public class Player : Entity,IAttack,IDamage
     public void MovementMechanics()
     {
         transform.position += (Vector3)moveInput * speed * Time.deltaTime;
+     
+        animator.SetFloat("Horizontal", moveInput.x);
+        animator.SetFloat("Vertical", moveInput.y);
+        animator.SetFloat("Speed", moveInput.magnitude);
     }
     
     
