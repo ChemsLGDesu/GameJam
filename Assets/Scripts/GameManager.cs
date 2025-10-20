@@ -12,8 +12,7 @@ public class GameManager : MonoBehaviour
     [SerializeField] private float currentTime_1;
     public float TimeSpawnBullet;
     [SerializeField] private float TimeSpawnPhatom;
-    public List<GameObject> phatoms = new();
-    public Transform EnemyHolder;
+    public List<Transform> Spawnerphatoms_1 ;    
 
     void Start()
     {
@@ -32,22 +31,11 @@ public class GameManager : MonoBehaviour
         currentTime_1 += Time.deltaTime;
         if (currentTime_1 >= TimeSpawnPhatom)
         {
-            GameObject enemy = Instantiate(EnemyPrefab, EnemyHolder);
-            float randomX = Random.Range(-5, 5);
-            float randomY = Random.Range(-5, 5);
-            enemy.transform.position = new Vector3(randomX, randomY, 0);            
+            int indexRandom = Random.Range(0,Spawnerphatoms_1.Count);
+            Instantiate(EnemyPrefab,Spawnerphatoms_1[indexRandom].position,Quaternion.identity);
             currentTime_1 = 0;
         }
 
-    }
-    public void DeleteAllEnemies()
-    {
-        Debug.Log("Eliminaste a todos los enemigos");
-        foreach (GameObject enemy in phatoms)
-        {
-            Destroy(enemy);
-        }
-        phatoms.Clear(); 
     }
 }
 

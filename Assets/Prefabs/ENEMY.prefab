@@ -153,7 +153,5 @@ MonoBehaviour:
   maxSpawnTime: 5
   spawnAreaMin: {x: -10, y: -10}
   spawnAreaMax: {x: 10, y: 10}
-  followRange: 3
+  followRange: 10
   moveSpeed: 2
-  cantidadPuntos: 150
-  puntaje: {fileID: 0}
