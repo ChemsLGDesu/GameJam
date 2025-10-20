@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 7721089534061815028}
   m_Layer: 0
   m_Name: CalabazaPrefab
-  m_TagString: Untagged
+  m_TagString: Items
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -80,7 +80,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 2
   m_Sprite: {fileID: 190803821900500201, guid: f8637468f1f0d474cb8215a8dd11c78a, type: 3}
-  m_Color: {r: 0.8538976, g: 0.8773585, b: 0.31038627, a: 1}
+  m_Color: {r: 0.69715935, g: 0.6981132, b: 0.6750623, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
