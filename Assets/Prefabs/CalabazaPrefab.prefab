@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 1134696870159873066}
   - component: {fileID: 4555206045007668215}
   - component: {fileID: 632506952500796936}
+  - component: {fileID: 7721089534061815028}
   m_Layer: 0
   m_Name: CalabazaPrefab
   m_TagString: Untagged
@@ -152,3 +153,16 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 1, y: 1.08}
   m_EdgeRadius: 0
+--- !u!114 &7721089534061815028
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7880551231810243587}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a777a2d364357244194050226f485ba7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Point: {fileID: 8300000, guid: 23479f97066d3524cb4c82e31822cf32, type: 3}

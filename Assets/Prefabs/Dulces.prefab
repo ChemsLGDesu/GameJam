@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 7280616806447878680}
   - component: {fileID: 5700862330028973861}
   - component: {fileID: 7112872059328716971}
+  - component: {fileID: 2898564482466820559}
   m_Layer: 0
   m_Name: Dulces
   m_TagString: Untagged
@@ -152,3 +153,16 @@ MonoBehaviour:
   cantidadPuntos: 100
   puntaje: {fileID: 0}
   gm: {fileID: 0}
+--- !u!114 &2898564482466820559
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7818339440923889262}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a777a2d364357244194050226f485ba7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Point: {fileID: 8300000, guid: 8f8ef099434040c4dabb009a4af41a4f, type: 3}

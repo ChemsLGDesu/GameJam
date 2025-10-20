@@ -6,6 +6,7 @@ public class Recollectable_Item : ItemTypes
     [SerializeField] private float cantidadPuntos;
     [SerializeField] private Puntaje puntaje;
     public GameManager gm;
+    
     void Start()
     {
         target = GameObject.FindGameObjectWithTag("Player").GetComponent<Transform>();
