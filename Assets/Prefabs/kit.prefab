@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 2525882570732308650}
   - component: {fileID: 8663459565820747410}
   - component: {fileID: 3586648401502531887}
+  - component: {fileID: 1049891873519550456}
   m_Layer: 0
   m_Name: kit
   m_TagString: Kit
@@ -150,3 +151,16 @@ MonoBehaviour:
   ItemName: Blood kit
   target: {fileID: 0}
   givehealth: 10
+--- !u!114 &1049891873519550456
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7365800790642948960}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a777a2d364357244194050226f485ba7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Point: {fileID: 8300000, guid: 54c647c11d956bf44aa099b8f14a5a31, type: 3}
